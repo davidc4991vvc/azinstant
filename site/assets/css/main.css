@@ -1,0 +1,51 @@
+div.btn-group {
+    float: right;
+    margin-right: 300px;
+    margin-top: 30px;
+    display:none;
+}
+
+div.search-product {
+  width: 200px;
+  display: inline;
+  height:400px;
+  float:right;
+  margin: 0 auto;
+}
+
+span.product-title {
+  width: 100px;
+  display:block;
+}
+
+span.product-price{
+  width: 100px;
+  display:block;
+  text-align: center;
+}
+
+div.hero-unit {
+  overflow: auto;
+}
+
+div.hero-unit h4 {
+  text-align: center;
+}
+
+@media screen and (min-width:900px) {
+  div.control-group {
+    margin-top: 30px;
+    margin-left: 250px;
+  }
+
+  div.control-group label {
+    display: inline;
+    font-size: 18px;
+  }
+
+  div.control-group input {
+    width: 400px;
+    margin: 0 auto;
+    height: 25px;
+  }
+}
