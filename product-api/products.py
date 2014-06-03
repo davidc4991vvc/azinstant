@@ -3,7 +3,7 @@ import json
 from amazon.api import AmazonAPI
 import collections
 
-amazon = AmazonAPI('AKIAJHSYJQJWTO4D2JSQ', '6Ugt2CroJBH4MPz58F+hTYL/IJ82mR0cVmlZlCTB', 'foo')
+amazon = AmazonAPI('foo1', 'foo2', 'foo')
 
 def search_products():
     # pass keyword
